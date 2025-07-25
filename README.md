@@ -1,2 +1,2 @@
 # Projetos-Beginner
-alguns Projetos usados para praticar na minha carreira beginner.
+Olá, aqui vai alguns projetos que estou usando para Praticar e melhorar minhas habilidades ( Iniciante Front-End ).
