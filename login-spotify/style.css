@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color:black;
+    height: 655px;
+    width: 340px;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+.tela{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60%;
+    
+}
+.fa-brands{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+#icon{
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+#icong{
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: rgba(248, 26, 26, 0.76);
+}
+#iconf{
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: rgb(0, 123, 255);
+}
+h1{
+    text-align: center;
+}
+button{
+    position: relative;
+    height: 42px;
+    width: 305px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.btn1{
+    background-color: #81f34a;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+}
