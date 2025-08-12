@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+ 
 }
 body{
     height: 100vh;
@@ -31,10 +32,10 @@ body{
 .results{
     
 }
-.user-results{
+.user-results img{
     transform: rotate(90deg);
 }
-.random-results{
+.random-results img {
     transform: rotate(-90deg) rotateY(180deg);
 }
 .results-text{
@@ -44,11 +45,49 @@ body{
     margin: 1.5rem 0;
     font-size: 2rem;
 }
+.container.start .user-results {
+    animation: userSharkes 0.7s ease infinite;
+    transform-origin:left ;
+}
+@keyframes userSharkes{
+    50%{
+        transform: rotate(10deg);
+    }
+}
+.container.start .random-results {
+    animation: randomSharkes 0.7s ease infinite;
+    transform-origin:right ;
+}
+@keyframes randomSharkes{
+    50%{
+        transform: rotate(-10deg);
+    }
+}
 .options{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    p{
+        color: #7d2ae8;
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-align: center;
+    }
 }
 .options-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition:  .5s ease;
+    opacity: .5;
     img{
         width: 50px;
     }
+}
+.options-img:hover{
+    opacity: 1;
+}
+.options-img:active{
+    opacity: 1;
 }
