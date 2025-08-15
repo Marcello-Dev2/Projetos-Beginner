@@ -3,4 +3,54 @@
     padding: 0%;
     box-sizing: border-box;
     
+}body{
+   font-family: Arial, sans-serif;
 }
+.container{
+    display: flex;
+    height: 100vh;
+}
+.lado-left{
+    flex: 1;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+
+    & h1{
+        color: #0046ff;
+        margin-bottom: 20px;
+        font-size: 4rem;
+        font-weight: 900;
+        width:500px ;
+    }
+    & p{
+        color:#0046ff ;
+        margin-bottom: 40px;
+        font-size: 2rem;
+        font-weight: bold;
+        width: 650px;
+    }
+    img{
+        height: 30rem;
+        width: 50em;
+        border-radius: 18px;
+    }
+}
+
+.lado-rhigth{
+    
+    flex: 1;
+    background: linear-gradient( 90deg , #001f80, #0046ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & h2{
+        color: #ffffff;
+        margin: bottom 30px; ;
+    }
+}
+ 
