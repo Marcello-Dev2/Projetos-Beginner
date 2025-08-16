@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
+
 <body>
     <section class="container">
         <div class="lado-left">
@@ -16,7 +17,8 @@
                 <p>Cadastre-se e impulsione a sua operação de vendas FTGS com a ajuda da HUB.</p>
             </div>
             <div class="img">
-                <img src="https://img.freepik.com/fotos-gratis/feche-as-maos-digitando-no-teclado_23-2148950520.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+                <img src="https://img.freepik.com/fotos-gratis/feche-as-maos-digitando-no-teclado_23-2148950520.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="">
             </div>
         </div>
         <div class="lado-rhigth">
@@ -24,30 +26,33 @@
             <div class="form">
                 <form>
                     <label for="nome">nome</label><br>
-                    <input type="text" name="nome" class="input-nome"><br>
+                    <input type="text" name="nome" class="input-form"><br>
                     <label for="tel">Telefonte</label><br>
-                    <input type="number" name="tel" class="input-tel"><br>
+                    <input type="number" name="tel" class="input-form"><br>
                     <label for="email">e-mail</label><br>
-                    <input type="email" name="email" class="input-email"><br>
+                    <input type="email" name="email" class="input-form"><br>
                     <label for="cnpj">CNPJ</label><br>
-                    <input type="number" name="cnpj" class="input-cnpj"><br>
+                    <input type="number" name="cnpj" class="input-form"><br>
                     <label for="pc">Promotora ou Corban</label><br>
-                    <input type="text" name="pc" class="input-pc"><br>
+                    <input type="text" name="pc" class="input-form"><br>
             </div>
-                <div class="button-lt">
-                    <div>
-                        <label for="estado">Estado</label>
-                        <input type="text" >
-                    </div>
-                    <div>
-                        <label for="cidade">Cidade</label>
-                        <input type="text">
-                    </div>
+            <div class="button-lt">
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" class="input-lado">
                 </div>
-                <button type="submit"><Em></Em>Enviar</button>
+
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" class="input-lado">
+                </div>
+            </div>
+
+            <button type="submit"><Em></Em>Enviar</button>
             </form>
         </div>
     </section>
 </body>
 <script src="script.js"></script>
+
 </html>

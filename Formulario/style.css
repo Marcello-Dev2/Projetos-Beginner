@@ -66,11 +66,11 @@
         
     }
     & form{
-        width: 30vw;
+        width: 40vw;
         color: #ffffff;
     }
-    & input{
-        height: 40px;
+    & .input-form{
+        height: 50px;
         width: 100%; 
         margin: 10px 0;
         outline: none;
@@ -81,10 +81,17 @@
     & .button-lt{
         display: flex;
         color: #ffffff;
-        align-items: start;
-        justify-content: space-between ;
-     
-        width: 36rem;
+        gap: 10px;
+    }& .button-lt label{
+        width: 100%;
+    }
+    & .button-lt .input-lado{
+        height: 50px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        outline: none;
+        flex: 1;
     }
 }
  
