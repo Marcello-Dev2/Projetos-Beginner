@@ -5,6 +5,7 @@
     
 }body{
    font-family: Arial, sans-serif;
+   overflow: hidden;
 }
 .container{
     display: flex;
@@ -17,60 +18,69 @@
     padding: 40px;
     justify-content: center;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-monocromatico-branco-estilo-papel_23-2149026538.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 
     & h1{
-        color: #0039d4;
+        color: #002eac;
         font-size: 5rem;
         font-weight: 900;
         width:600px ;
         margin-left: 60px;
         line-height: 110%;
+        margin-top: 50px;
     }
     & p{
-        color:#0039d4 ;
+        color:#002eac ;
         margin: 50px 0;
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight: 800;
         width: 650px;
          margin-left: 60px;
     }
     img{
         position: relative;
-        height: 30rem;
-        width: 100%;
+        height: 32rem;
+        width: 102%;
         border-radius: 18px;
-        margin-left: 60px;
+        margin-left: 70px;
         z-index: 1;
+        margin-top: 50px;
     }
 }
 
 .lado-rhigth{
     position: relative;
     flex: 1;
-    background: linear-gradient( 90deg , #001e79, #0039d6);
+    background: linear-gradient( 90deg , #00144f, #0036ca);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     & h2{
+        position: absolute;
         color: #ffffff;
-        margin: bottom 30px; 
-        
+        margin-bottom: 50px; 
+        font-size: 30px;
+        left: 77px;
+        top: 90px;
     }
     & .form{
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        margin-top: 50px;
     }
     & form{
         width: 40vw;
         color: #ffffff;
     }
     & .input-form{
-        height: 50px;
+        height: 40px;
         width: 100%; 
         margin: 10px 0;
         outline: none;
@@ -78,20 +88,54 @@
         border: none;
         padding: 10px;
     }
-    & .button-lt{
-        display: flex;
-        color: #ffffff;
-        gap: 10px;
-    }& .button-lt label{
-        width: 100%;
-    }
-    & .button-lt .input-lado{
-        height: 50px;
+    & label{
         font-size: 18px;
-        padding: 10px;
-        border: none;
-        outline: none;
-        flex: 1;
     }
+.button-lt {
+  display: flex;
+  gap: 20px;        /* espaço entre os campos */
+  margin-top: 15px;
+  gap: 0 50px;
 }
- 
+
+.button-lt .campo {
+  flex: 1;          /* cada bloco ocupa metade */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.button-lt label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #fff; /* ou outra cor que combine */
+}
+
+.button-lt input {
+    height: 40px;
+    width: 360px; 
+    margin: 10px 0;
+    outline: none;
+    
+    border: none;
+    padding: 10px;
+}
+
+}
+.button-submit{
+    height: 50px;
+    width: 84%;
+    margin-top: 4%;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.button-submit:hover{
+    opacity: .8;
+}
+.button-submit:active{
+    opacity: .6;
+}
