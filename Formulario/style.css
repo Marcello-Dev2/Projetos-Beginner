@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
-}body{
-   font-family: Arial, sans-serif;
-   overflow: hidden;
 }
-.container{
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
     display: flex;
     height: 100vh;
 }
-.lado-left{
+
+.lado-left {
     position: relative;
     flex: 1;
     display: flex;
@@ -22,26 +25,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    
-
-    & h1{
+    & h1 {
         color: #002eac;
         font-size: 5rem;
         font-weight: 900;
-        width:600px ;
+        width: 600px;
         margin-left: 60px;
         line-height: 110%;
         margin-top: 50px;
     }
-    & p{
-        color:#002eac ;
+
+    & p {
+        color: #002eac;
         margin: 50px 0;
         font-size: 1.5rem;
         font-weight: 800;
         width: 650px;
-         margin-left: 60px;
+        margin-left: 60px;
     }
-    img{
+
+    img {
         position: relative;
         height: 32rem;
         width: 102%;
@@ -52,77 +55,80 @@
     }
 }
 
-.lado-rhigth{
+.lado-rhigth {
     position: relative;
     flex: 1;
-    background: linear-gradient( 90deg , #00144f, #0036ca);
+    background: linear-gradient(90deg, #00144f, #0036ca);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    & h2{
+    & h2 {
         position: absolute;
         color: #ffffff;
-        margin-bottom: 50px; 
-        font-size: 30px;
-        left: 77px;
-        top: 90px;
+        font-size: 2.1rem;
+        left: 5rem;
+        top: 6rem;
     }
-    & .form{
+
+    & .form {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 50px;
     }
-    & form{
+
+    & form {
         width: 40vw;
         color: #ffffff;
     }
-    & .input-form{
+
+    & .input-form {
         height: 40px;
-        width: 100%; 
+        width: 100%;
         margin: 10px 0;
         outline: none;
-        font-size: 18px;
+        font-size: 1rem;
+        font-weight: bold;
         border: none;
         padding: 10px;
     }
-    & label{
+
+    & label {
         font-size: 18px;
     }
-.button-lt {
-  display: flex;
-  gap: 20px;        /* espaço entre os campos */
-  margin-top: 15px;
-  gap: 0 50px;
+
+    .button-lt {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .button-lt .campo {
+        flex: 1;
+        /* cada bloco ocupa metade */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-lt label {
+        font-size: 1.3rem;
+        color: #fff;
+        /* ou outra cor que combine */
+    }
+
+    .button-lt input {
+        height: 40px;
+        width: 18.6vw;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        border: none;
+        padding: 1rem;
+    }
 }
 
-.button-lt .campo {
-  flex: 1;          /* cada bloco ocupa metade */
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.button-lt label {
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #fff; /* ou outra cor que combine */
-}
-
-.button-lt input {
-    height: 40px;
-    width: 360px; 
-    margin: 10px 0;
-    outline: none;
-    
-    border: none;
-    padding: 10px;
-}
-
-}
-.button-submit{
+.button-submit {
     height: 50px;
     width: 84%;
     margin-top: 4%;
@@ -133,9 +139,11 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.button-submit:hover{
+
+.button-submit:hover {
     opacity: .8;
 }
-.button-submit:active{
+
+.button-submit:active {
     opacity: .6;
 }
