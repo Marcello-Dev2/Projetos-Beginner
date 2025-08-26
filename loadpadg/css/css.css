@@ -17,19 +17,44 @@ body{
     width: 100vw;
 }
 .navbar {
-    background-color: #e4e4e4;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 2rem;
     
+}
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0 1.3rem;
+    font-weight: bold;
 }
 .container{
-    background-color: #ffffff;
+    background-color: #ffe9de;
     display: flex;
-    background-image:  url(https://acdn-us.mitiendanube.com/stores/002/767/708/products/vecteezy_dragon-ball-landscape-scene-background_20793913-4a6f79e513bd69b67a17014581407953-1024-1024.jpg);
-    background-image:no-repeat;
-    
+    align-items: center;
+    justify-content: center;
+
+    & h2{
+        font-size: 2.5rem;
+    }
+    & p{
+        font-size: 1.5rem;
+    }
 }
+
 .footer{
     
+}
+.button{
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #072083;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
 }
