@@ -1,0 +1,27 @@
+:root {
+    --cortema : #F85B1A;
+    --cortema : #072083;
+    --cortema : #FFD7C1;
+    --cortema : #E59982;
+    --cortema : #000000;
+    --cortema : #8A9294;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    background-color: #072083;
+    
+}
+.container{
+    background-color: #E59982;
+}
+.footer{
+    background-color: #FFD7C1;
+}
