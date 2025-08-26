@@ -10,18 +10,26 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 body{
     height: 100vh;
     width: 100vw;
 }
 .navbar {
-    background-color: #072083;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 .container{
-    background-color: #E59982;
+    background-color: #ffffff;
+    display: flex;
+    background-image:  url(https://acdn-us.mitiendanube.com/stores/002/767/708/products/vecteezy_dragon-ball-landscape-scene-background_20793913-4a6f79e513bd69b67a17014581407953-1024-1024.jpg);
+    background-image:no-repeat;
+    
 }
 .footer{
-    background-color: #FFD7C1;
+    
 }
