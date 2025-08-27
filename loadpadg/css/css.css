@@ -35,14 +35,17 @@
     opacity: .6;
 }
 .container{
-    background:linear-gradient(to bottom, #F85B1A, #e59f8c);
+   
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     padding: 2rem;
     gap:0 9rem;
-    
+    background-image: url("/loadpadg/src/fundo.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
     & h2{
         font-size: 3.3rem;
         margin-bottom: 5rem;
