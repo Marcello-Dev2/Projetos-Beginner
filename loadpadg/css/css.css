@@ -10,8 +10,10 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
+body{
+    height: 100vh;
 
 .navbar {
     background-color: transparent;
@@ -24,15 +26,20 @@
     
 }
 .navbar a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-size: 2rem;
     margin: 0 3rem;
     font-weight: bold;
+    background-color: #072083;
+    padding: 15px;
+    border-radius: 33px 5px;
+    box-shadow: 3px 3px 6px#171717;
     transition: all 0.3s ease-in-out;
 }
 .navbar a:hover{
-    opacity: .6;
+    opacity: .8;
+    
 }
 .container{
    
@@ -42,20 +49,41 @@
     height: 100vh;
     padding: 2rem;
     gap:0 9rem;
-    background-image: url("/loadpadg/src/fundo.jpg"); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
-    & h2{
-        font-size: 3.3rem;
+     background-image: url("/loadpadg/src/fundo.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+}
+.container h2{
+        font-size: 4rem;
         margin-bottom: 5rem;
-    }
-    & p{
-        font-size: 1.5rem;
-        width: 30em;
+        margin-top: 6rem;
+}
+.container span{
+        color: #F85B1A;
+        font-size: 4rem;
+        border-radius: 10px 20px;
+        padding: 6px;
+        text-decoration: underline 0.200rem;
+}
+
+.container p{
+        font-size: 2rem;
+        width: 25em;
         line-height: 2.4rem;
-        font-weight: 700;
+        font-weight: 900;
+        color: #000000;
+        background-color: #ffffffbb ;
+        padding: 20px;
+        border-radius: 12px;
     }
+.caixa-content{
+    background-color: #072083;
+    background-color: #ffffffbb ;
+    padding: 20px;
+    border-radius: 16px;
+    
 }
 .caixa-img{
     & img{
@@ -66,12 +94,12 @@
     height: 6rem;
 }
 .button{
-    padding: .7rem 4rem;
+    padding: 1rem 4rem;
     border-radius: 10px;
     border: none;
     background-color: #072083;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
     margin-top: 6rem;
@@ -79,8 +107,68 @@
 }
 .button:hover{
     opacity: .8;
-    padding: .7rem 5rem;
+    padding: 1rem 5rem;
 }
 .button:active{
     opacity: .6;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.container-card{
+    padding: 20px;
+    background-image: url("/loadpadg/src/fundo-card.png");
+    height: 100vh;
+}
+.container-card h2{
+    color: #2e2e2e;
+    text-align: center;
+    font-size: 4rem;
+    margin: 4rem 0;
+    font-family: "poppins", sans-serif;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: wrap;
+
+}
+.card{
+    
+    height: 100%;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,#F85B1A, #072083);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 10px;
+    padding: 20px;
+}
+.card img{
+        border-radius: 20px;
+    }
+.card p{
+    color: white;
+    width: 300px;
+    font-size: 1.2rem;
+    font-family: "poppins", sans-serif
+}
+.card h3{
+    font-size: 2rem;
+    font-family: "poppins", sans-serif;
+    color: #ffffff;
+}
+.button-card{
+
+    padding:1rem 2rem ;
+    background: #F85B1A;
+    border: none;
+    border-radius: 10px ;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
