@@ -3,3 +3,40 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.navbar{
+    background-color: #0d0b26 ;
+    color: #9aeac6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+}
+.nav
+
+.nav a{
+    color: #9aeac6;
+    text-decoration: none;
+}
+.home{
+    background-color: #0d0b26;
+    display: flex;
+   
+    height: 100vh;
+}
+.img-main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end
+}
+.home .img-main img {
+    width: ;
+}
+.title-main{
+    flex: 1;
+    font-size: 2rem;
+    color: #9aeac6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
