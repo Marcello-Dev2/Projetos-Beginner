@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 .navbar{
     background-color: #0d0b26 ;
@@ -9,34 +10,127 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 6rem;
+    padding: 2rem 3rem;
+    width: 100%;
 }
-.nav
-
-.nav a{
-    color: #9aeac6;
+.navbar h1{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.navbar button {
+    padding: .6rem 2.6rem;
+    background-color:#9aeac6;
+    border:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+    font-style: italic;
+    cursor: pointer;
+}
+.nav ul{
+   display: flex;
+   list-style: none;
+   gap: 2rem;
+}
+.nav ul a {
     text-decoration: none;
+    color: #9aeac6;
+    font-size: 1.3rem;
+    
 }
 .home{
     background-color: #0d0b26;
     display: flex;
-   
+    align-items: center;
+    justify-content: center;
     height: 100vh;
+  
+    
 }
 .img-main{
     flex: 1;
+}
+.title-main {
     display: flex;
     align-items: center;
-    justify-content: end
-}
-.home .img-main img {
-    width: ;
-}
-.title-main{
-    flex: 1;
-    font-size: 2rem;
-    color: #9aeac6;
-    display: flex;
-    align-items: center;
+    justify-content:center;
     flex-direction: column;
+    flex: 1;
+    color: #9aeac6;
+    text-align: left;
+    padding: 20px;
+}
+.title-main div{
+    text-align: left;
+    padding: 20px;
+}
+.title-main button{
+    padding: 1rem 2.5rem;
+    background-color:#9aeac6;
+    border:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.title-main h2{
+    font-size: 4.5rem;
+    width: 500px;
+     font-style: italic;
+    line-height: 5rem;
+    font-weight: 900;
+}
+.title-main p{
+    font-size: 1.2rem;
+    
+    width: 600px;
+    margin-top: 2rem;
+
+}
+.servicos{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dd4c3c; 
+    padding: 2rem;
+    height: 80vh;
+    
+}   
+.servicos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.servicos img{
+    width: 300px;
+}
+.texto-servicos {
+    width: 700px;
+    text-align: center;
+}
+.texto-servicos h2{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 4rem;
+    color: #0d0b26;
+    line-height: 3.8rem;
+}
+.texto-servicos button{
+    padding: 1.3rem 2.8rem;
+    background-color: #0d0b26;
+    color: #9aeac6;
+    border: 2px solid #9aeac6;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.cards{
+    background-color: #dd4c3c;
+    
 }
