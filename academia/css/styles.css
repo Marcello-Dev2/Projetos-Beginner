@@ -11,7 +11,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 3rem;
-    width: 100%;
+     width: 100%;
+    border-bottom: 1px solid;
 }
 .navbar h1{
     font-size: 1.5rem;
@@ -86,10 +87,13 @@
 }
 .title-main p{
     font-size: 1.2rem;
-    
     width: 600px;
     margin-top: 2rem;
-
+}
+.img-main img{
+    border: 1px solid #9aeac6;
+    border-radius: 10px;
+    margin-left: 5rem;
 }
 .servicos{  
     display: flex;
@@ -97,7 +101,7 @@
     justify-content: center;
     background-color: #dd4c3c; 
     padding: 2rem;
-    height: 80vh;
+    height: 100vh;
     
 }   
 .servicos div{
@@ -129,8 +133,34 @@
     font-size: 1rem;
     font-weight: 700;
     margin-top: 3rem;
+    cursor: pointer;
 }
 .cards{
     background-color: #dd4c3c;
-    
+    height: 80vh;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 200px;
+
+}
+.card img{
+    width: 400px;
+}
+.description{
+    background-color: #dd4c3c;
+    color: #000;
+    padding: 20px;
+
+}
+
+
+
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
