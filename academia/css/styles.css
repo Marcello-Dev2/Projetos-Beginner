@@ -42,11 +42,13 @@ body{
     font-size: 1.3rem;
 }
 .home{
+   
     background-color: #0d0b26;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;  
+    height: 100%;  
+    width: 100%;
 }
 .img-main{
     flex: 1;
@@ -231,4 +233,34 @@ a:hover{
 }
 a:active{
      opacity: 0.6;
+}
+@media (max-width: 1612px) {
+     .title-main div{
+        width: 300px;
+    }
+    .title-main div h2{
+        font-size: 2.5rem;
+        width: 300px;
+        line-height: 40px;
+        }
+     .title-main div p{
+        font-size: 1rem;
+        width: 400px;
+    }
+     .title-main div button{
+        padding: .5rem 2rem;
+        font-size: 1rem;
+    }
+    .img-main img {
+        width: 400px;
+    }
+      .servico{
+        width: 400px;
+      }
+    .servicos h2{
+        font-size: 2.3rem;
+    }
+    .servicos button{
+        padding: .8rem 2rem;
+    }
 }
