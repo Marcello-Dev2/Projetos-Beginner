@@ -254,13 +254,19 @@ a:active{
     .img-main img {
         width: 400px;
     }
-      .servico{
-        width: 400px;
-      }
+       
     .servicos h2{
-        font-size: 2.3rem;
+        font-size: 1.8rem;
     }
     .servicos button{
-        padding: .8rem 2rem;
+        padding: .5rem 1.5rem;
     }
+    .servicos article{
+        width: 300px;
+        
+    }
+    .servicos article img {
+        width: 200px;
+       ;
+      }
 }
