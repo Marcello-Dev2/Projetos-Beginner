@@ -17,6 +17,7 @@ body{
 .navbar h1 img {
     height:110px ;
     width: 180px ;
+    margin-left: 30px;
 }
 .menu-navbar{
     display: grid;
@@ -39,4 +40,47 @@ body{
         font-weight: 600;
         cursor: pointer;
 }
+}
+main{
+    background-color: #e3c574f5;
+    padding: 1rem;
+}
+.container-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    & .contant-main{
+        width: 500px;
+
+        & h2{
+            font-size: 4rem;
+            margin-bottom: 50px ;
+            color: #000000f5;
+            font-style: italic;
+            
+        }
+        & p{
+            font-size: 1.5rem;
+            margin-bottom: 30px ;
+            line-height: 45px;
+        }
+        & a{
+            font-size: 1.4rem;
+            text-decoration: underline;
+            color: #c23b3b;
+            font-weight: 600;
+            font-style: italic;
+            
+        }
+    }
+
+}
+
+.img-main{
+    & img{
+        width: 800px;
+        border-radius: 10px;
+    }
 }
