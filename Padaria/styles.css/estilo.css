@@ -8,7 +8,7 @@ body{
     background-color: #505050;
 }
 .navbar{
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body{
     grid-template-columns: repeat(4, 200px);
     list-style: none;
     & a{
-        color: rgb(0, 0, 0);
+       
         text-decoration: none;
         font-size: 1.5rem;
         font-weight: 500;
@@ -42,26 +42,82 @@ body{
 }
 }
 main{
-    background-color: #e3c574f5;
-    padding: 1rem;
+    background: radial-gradient(#e57979, #f1c13df5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container-main{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 2rem;
+    flex: 1;
+}
+.contant-main{
+    display: flex;
+    flex-direction: column;
+    & h2 {
+        color: #474646f5;
+        font-size: 5rem;
+    }
+    & p{
+        color: #474646f5;
+        font-size: 1.5rem;
+        width: 500px;
+        margin-top: 30px;
+    }
+    & .button-main{
+        width: 200px;
+        padding: .5rem;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0 0 10px #000000;
+        background: #c23b3b;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 100px 0;
+    }
+}
+.img{
+    display: flex;
+   
+
+    
+}
+.img-main{
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px;
+}
+ 
+
+.section-sobre{
+    background-color: #fddd87f5;
+    padding: 1rem;
+}
+.container-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    gap: rem;
     padding: 2rem;
-    & .contant-main{
+    & .contant-sobre{
         width: 500px;
 
         & h2{
             font-size: 4rem;
             margin-bottom: 50px ;
-            color: #000000f5;
+            color: #474646f5;
             font-style: italic;
             
         }
         & p{
+            color: #474646f5;
             font-size: 1.5rem;
             margin-bottom: 30px ;
             line-height: 45px;
@@ -78,9 +134,10 @@ main{
 
 }
 
-.img-main{
+.img-sobre{
     & img{
-        width: 800px;
+        width: 600px;
         border-radius: 10px;
     }
+    
 }
