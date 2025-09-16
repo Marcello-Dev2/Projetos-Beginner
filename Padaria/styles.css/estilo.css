@@ -76,6 +76,7 @@ main{
     & h2 {
         color: #474646f5;
         font-size: 5rem;
+        font-style: italic;
     }
     & p{
         color: #474646f5;
@@ -182,6 +183,7 @@ main{
             color: #474646f5;
             font-size: 4rem;
             margin-bottom: 50px;
+            font-style: italic;
         }
         & p{
             color: #474646f5;
